@@ -50,6 +50,10 @@ h1,h2,h3,h4,h5,h6{
 
 /* header */
 
+.mmm{
+	overflow: hidden;	
+}
+
 .header{
 	background: #fff url(../img/Shape1.png) center no-repeat / cover;
 	padding: 75px 0;
@@ -1539,9 +1543,7 @@ border: 2px solid #e83a93;
 }
 
 @media  (max-width: 1265px){
-	.header-right-top-two-free::before{
-		display: none;
-	}
+
 }
 
 @media  (max-width: 1056px){
@@ -1580,4 +1582,25 @@ border: 2px solid #e83a93;
 	}
 
 
+}
+
+@media  (max-width: 1056px){
+	.about img{
+		display: none;
+	}
+	
+	.about-item{
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.about-item:last-child{
+		display: none;
+	}
+
+	.about-btn{
+		margin: 40px auto 0;
+		display: inline-block;
+	}
+	
 }
